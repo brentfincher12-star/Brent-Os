@@ -1,0 +1,20 @@
+brent-os/
+├── README.md
+├── profile/
+│   ├── packages.x86_64
+│   ├── pacman.conf
+│   ├── airootfs/
+│   │   ├── etc/
+│   │   │   ├── os-release
+│   │   │   ├── hostname
+│   │   │   ├── locale.gen
+│   │   │   ├── environment
+│   │   ├── root/
+│   │   │   ├── .zprofile
+│   │   │   ├── install.txt
+│   │   ├── usr/
+│   │       ├── local/
+│   │           ├── bin/
+│   │               ├── brent-firstboot
+├── build.sh
+└── iso.sh
